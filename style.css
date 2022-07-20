@@ -19,10 +19,6 @@
 
 /* 1. HEADER */
 
-section{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
 
 header{
     background-color: black;
@@ -62,7 +58,10 @@ main{
 
 /* PARAGRAFOS */
 
-
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 
 main p{
     font-family: cursive;
@@ -89,7 +88,7 @@ main p{
     background-size: cover;
     margin-left:-30px;
     padding: 50px 45% 50px 30px;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
 }
 
 
