@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* TOPICOS DE CSS:
+        0.0 BODY
+        1. HEARDER
+        2. MAIN
+        2.1 PARAGRAFOS
+        2.2 IMAGENS
+        3. FOOTER
+
+*/
+
+/* 0.0 BODY */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 1. HEADER */
+
+header{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+    padding: 30px;
+}
+
+
+header h1{
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+    font-weight: bold;
+    
+}
+
+header > p{
+    font-size: 1em;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/* main */
+
+main{
+    padding-top: 20px;
+    margin-left: 30px ;
+}
+
+/* PARAGRAFOS */
+
+
+
+main p{
+    font-family: cursive;
+    font-size: 3.5vw;
+    line-height: 6.5vw;
+    margin: 40px 10px;
+    font-family: 'Sriracha', cursive;
+    
+}
+
+.img p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 10px;
+
+}
+
+/* imagens */
+
+.img{
+    background-color: black;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left:-30px;
+    padding: 50px 45% 50px 30px;
+
+}
+
+
+#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+#img2{
+    background-image: url(imagens/background002.jpg);
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
