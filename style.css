@@ -99,6 +99,7 @@ main p{
 
 #img2{
     background-image: url(imagens/background002.jpg);
+    background-position: center right;
 }
 
 /* footer */
