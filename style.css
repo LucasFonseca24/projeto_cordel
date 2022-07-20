@@ -66,8 +66,8 @@ section{
 
 main p{
     font-family: cursive;
-    font-size: 3.5vw;
-    line-height: 6.5vw;
+    font-size: 4.5vw;
+    line-height: 7vw;
     margin: 20px 10px;
     font-family: 'Sriracha', cursive;
     
@@ -88,7 +88,7 @@ main p{
     background-attachment: fixed;
     background-size: cover;
     margin-left:-30px;
-    padding: 50px 45% 50px 30px;
+    padding: 50px 30% 50px 30px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
 }
 
