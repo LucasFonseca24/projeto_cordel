@@ -75,8 +75,8 @@ main p{
 
 .img p{
     color: white;
-    background-color: rgba(0, 0, 0, 0.445);
-    padding:  0 10px;
+    background-color: rgba(31, 31, 31, 0.445);
+    padding:  0 2vw;
 
 }
 
@@ -88,7 +88,7 @@ main p{
     background-attachment: fixed;
     background-size: cover;
     margin-left:-30px;
-    padding: 70px 40% 70px 30px;
+    padding: 70px 35% 70px 30px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
 }
 
